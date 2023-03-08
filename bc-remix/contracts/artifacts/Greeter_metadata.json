@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Greeter.sol": "Greeter"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Greeter.sol": {
+			"keccak256": "0x1b6c065972072ed2848a043176f459e38ef5956ba895771ee30af3fe6cd00cf2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://92778efe01f439fa2b89d66a17ed46596fefa5aa572ac6eba97d3672a73e601d",
+				"dweb:/ipfs/QmUxu1yY8x7cH3Z5DxGKyqBzjiL6iRNWDKNRpRxaHTb47T"
+			]
+		}
+	},
+	"version": 1
+}
