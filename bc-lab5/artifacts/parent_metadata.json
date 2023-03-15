@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bc-lab5/singleinheritance.sol": "parent"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bc-lab5/singleinheritance.sol": {
+			"keccak256": "0xb5d327f6bcbc793ae2a731509675fb07bb489a0c970615a7f627b678587a92d4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f4937cb090cb7631033786eae1fe4be21b026b7d34113bcd0d856ab3f4e07cf",
+				"dweb:/ipfs/QmQDHFyNYpui1EWnRQPfgPkNesTYjbaDmCRxFt2uraHqum"
+			]
+		}
+	},
+	"version": 1
+}
