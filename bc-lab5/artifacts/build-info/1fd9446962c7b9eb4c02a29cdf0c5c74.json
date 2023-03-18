@@ -1,12 +1,12 @@
 {
-	"id": "8ffd2d603317cf005add5f0ee77df9f8",
+	"id": "1fd9446962c7b9eb4c02a29cdf0c5c74",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.17",
 	"solcLongVersion": "0.8.17+commit.8df45f5f",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"bc-lab5/Bidder.sol": {
+			"Bidder.sol": {
 				"content": "//SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n\r\ncontract Bidder {\r\n    string name;\r\n    uint bidAmount;\r\n    bool eligible;\r\n    uint minBid;\r\n\r\n    function setName() public {\r\n\r\n    }\r\n\r\n    function setBidAmount() public {\r\n        \r\n    }\r\n\r\n    function determineEligibility() public {\r\n        \r\n    }\r\n}\r\n\r\n"
 			}
 		},
@@ -39,7 +39,7 @@
 	},
 	"output": {
 		"contracts": {
-			"bc-lab5/Bidder.sol": {
+			"Bidder.sol": {
 				"Bidder": {
 					"abi": [
 						{
@@ -70,13 +70,13 @@
 						"version": 1
 					},
 					"evm": {
-						"assembly": "    /* \"bc-lab5/Bidder.sol\":59:322  contract Bidder {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"bc-lab5/Bidder.sol\":59:322  contract Bidder {... */\n      mstore(0x40, 0x80)\n      callvalue\n      dup1\n      iszero\n      tag_1\n      jumpi\n      0x00\n      dup1\n      revert\n    tag_1:\n      pop\n      jumpi(tag_2, lt(calldatasize, 0x04))\n      shr(0xe0, calldataload(0x00))\n      dup1\n      0x2bf0f81c\n      eq\n      tag_3\n      jumpi\n      dup1\n      0x7be16214\n      eq\n      tag_4\n      jumpi\n      dup1\n      0x96895a77\n      eq\n      tag_5\n      jumpi\n    tag_2:\n      0x00\n      dup1\n      revert\n        /* \"bc-lab5/Bidder.sol\":161:197  function setName() public {... */\n    tag_3:\n      tag_6\n      tag_7\n      jump\t// in\n    tag_6:\n      stop\n        /* \"bc-lab5/Bidder.sol\":205:254  function setBidAmount() public {... */\n    tag_4:\n      tag_8\n      tag_9\n      jump\t// in\n    tag_8:\n      stop\n        /* \"bc-lab5/Bidder.sol\":262:319  function determineEligibility() public {... */\n    tag_5:\n      tag_10\n      tag_11\n      jump\t// in\n    tag_10:\n      stop\n        /* \"bc-lab5/Bidder.sol\":161:197  function setName() public {... */\n    tag_7:\n      jump\t// out\n        /* \"bc-lab5/Bidder.sol\":205:254  function setBidAmount() public {... */\n    tag_9:\n      jump\t// out\n        /* \"bc-lab5/Bidder.sol\":262:319  function determineEligibility() public {... */\n    tag_11:\n      jump\t// out\n\n    auxdata: 0xa2646970667358221220889378f458629c079818c1460bd4f7a4441cd24e64fea2a6e98ffeaa44427b5e64736f6c63430008110033\n}\n",
+						"assembly": "    /* \"Bidder.sol\":59:322  contract Bidder {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"Bidder.sol\":59:322  contract Bidder {... */\n      mstore(0x40, 0x80)\n      callvalue\n      dup1\n      iszero\n      tag_1\n      jumpi\n      0x00\n      dup1\n      revert\n    tag_1:\n      pop\n      jumpi(tag_2, lt(calldatasize, 0x04))\n      shr(0xe0, calldataload(0x00))\n      dup1\n      0x2bf0f81c\n      eq\n      tag_3\n      jumpi\n      dup1\n      0x7be16214\n      eq\n      tag_4\n      jumpi\n      dup1\n      0x96895a77\n      eq\n      tag_5\n      jumpi\n    tag_2:\n      0x00\n      dup1\n      revert\n        /* \"Bidder.sol\":161:197  function setName() public {... */\n    tag_3:\n      tag_6\n      tag_7\n      jump\t// in\n    tag_6:\n      stop\n        /* \"Bidder.sol\":205:254  function setBidAmount() public {... */\n    tag_4:\n      tag_8\n      tag_9\n      jump\t// in\n    tag_8:\n      stop\n        /* \"Bidder.sol\":262:319  function determineEligibility() public {... */\n    tag_5:\n      tag_10\n      tag_11\n      jump\t// in\n    tag_10:\n      stop\n        /* \"Bidder.sol\":161:197  function setName() public {... */\n    tag_7:\n      jump\t// out\n        /* \"Bidder.sol\":205:254  function setBidAmount() public {... */\n    tag_9:\n      jump\t// out\n        /* \"Bidder.sol\":262:319  function determineEligibility() public {... */\n    tag_11:\n      jump\t// out\n\n    auxdata: 0xa2646970667358221220512875051697ac2dc9bf183f4ccae5b1f3599640719e67e436fbc2204c0d42f864736f6c63430008110033\n}\n",
 						"bytecode": {
 							"functionDebugData": {},
 							"generatedSources": [],
 							"linkReferences": {},
-							"object": "6080604052348015600f57600080fd5b5060958061001e6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632bf0f81c1460415780637be1621414604957806396895a77146051575b600080fd5b60476059565b005b604f605b565b005b6057605d565b005b565b565b56fea2646970667358221220889378f458629c079818c1460bd4f7a4441cd24e64fea2a6e98ffeaa44427b5e64736f6c63430008110033",
-							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x95 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2BF0F81C EQ PUSH1 0x41 JUMPI DUP1 PUSH4 0x7BE16214 EQ PUSH1 0x49 JUMPI DUP1 PUSH4 0x96895A77 EQ PUSH1 0x51 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x47 PUSH1 0x59 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x4F PUSH1 0x5B JUMP JUMPDEST STOP JUMPDEST PUSH1 0x57 PUSH1 0x5D JUMP JUMPDEST STOP JUMPDEST JUMP JUMPDEST JUMP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP9 SWAP4 PUSH25 0xF458629C079818C1460BD4F7A4441CD24E64FEA2A6E98FFEAA DIFFICULTY TIMESTAMP PUSH28 0x5E64736F6C6343000811003300000000000000000000000000000000 ",
+							"object": "6080604052348015600f57600080fd5b5060958061001e6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632bf0f81c1460415780637be1621414604957806396895a77146051575b600080fd5b60476059565b005b604f605b565b005b6057605d565b005b565b565b56fea2646970667358221220512875051697ac2dc9bf183f4ccae5b1f3599640719e67e436fbc2204c0d42f864736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x95 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2BF0F81C EQ PUSH1 0x41 JUMPI DUP1 PUSH4 0x7BE16214 EQ PUSH1 0x49 JUMPI DUP1 PUSH4 0x96895A77 EQ PUSH1 0x51 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x47 PUSH1 0x59 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x4F PUSH1 0x5B JUMP JUMPDEST STOP JUMPDEST PUSH1 0x57 PUSH1 0x5D JUMP JUMPDEST STOP JUMPDEST JUMP JUMPDEST JUMP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MLOAD 0x28 PUSH22 0x51697AC2DC9BF183F4CCAE5B1F3599640719E67E436 0xFB 0xC2 KECCAK256 0x4C 0xD TIMESTAMP 0xF8 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
 							"sourceMap": "59:263:0:-:0;;;;;;;;;;;;;;;;;;;"
 						},
 						"deployedBytecode": {
@@ -103,8 +103,8 @@
 							"generatedSources": [],
 							"immutableReferences": {},
 							"linkReferences": {},
-							"object": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632bf0f81c1460415780637be1621414604957806396895a77146051575b600080fd5b60476059565b005b604f605b565b005b6057605d565b005b565b565b56fea2646970667358221220889378f458629c079818c1460bd4f7a4441cd24e64fea2a6e98ffeaa44427b5e64736f6c63430008110033",
-							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2BF0F81C EQ PUSH1 0x41 JUMPI DUP1 PUSH4 0x7BE16214 EQ PUSH1 0x49 JUMPI DUP1 PUSH4 0x96895A77 EQ PUSH1 0x51 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x47 PUSH1 0x59 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x4F PUSH1 0x5B JUMP JUMPDEST STOP JUMPDEST PUSH1 0x57 PUSH1 0x5D JUMP JUMPDEST STOP JUMPDEST JUMP JUMPDEST JUMP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 DUP9 SWAP4 PUSH25 0xF458629C079818C1460BD4F7A4441CD24E64FEA2A6E98FFEAA DIFFICULTY TIMESTAMP PUSH28 0x5E64736F6C6343000811003300000000000000000000000000000000 ",
+							"object": "6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632bf0f81c1460415780637be1621414604957806396895a77146051575b600080fd5b60476059565b005b604f605b565b005b6057605d565b005b565b565b56fea2646970667358221220512875051697ac2dc9bf183f4ccae5b1f3599640719e67e436fbc2204c0d42f864736f6c63430008110033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3C JUMPI PUSH1 0x0 CALLDATALOAD PUSH1 0xE0 SHR DUP1 PUSH4 0x2BF0F81C EQ PUSH1 0x41 JUMPI DUP1 PUSH4 0x7BE16214 EQ PUSH1 0x49 JUMPI DUP1 PUSH4 0x96895A77 EQ PUSH1 0x51 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST PUSH1 0x47 PUSH1 0x59 JUMP JUMPDEST STOP JUMPDEST PUSH1 0x4F PUSH1 0x5B JUMP JUMPDEST STOP JUMPDEST PUSH1 0x57 PUSH1 0x5D JUMP JUMPDEST STOP JUMPDEST JUMP JUMPDEST JUMP JUMPDEST JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 MLOAD 0x28 PUSH22 0x51697AC2DC9BF183F4CCAE5B1F3599640719E67E436 0xFB 0xC2 KECCAK256 0x4C 0xD TIMESTAMP 0xF8 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
 							"sourceMap": "59:263:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;161:36;;;:::i;:::-;;205:49;;;:::i;:::-;;262:57;;;:::i;:::-;;161:36;:::o;205:49::-;:::o;262:57::-;:::o"
 						},
 						"gasEstimates": {
@@ -259,7 +259,7 @@
 							],
 							".data": {
 								"0": {
-									".auxdata": "a2646970667358221220889378f458629c079818c1460bd4f7a4441cd24e64fea2a6e98ffeaa44427b5e64736f6c63430008110033",
+									".auxdata": "a2646970667358221220512875051697ac2dc9bf183f4ccae5b1f3599640719e67e436fbc2204c0d42f864736f6c63430008110033",
 									".code": [
 										{
 											"begin": 59,
@@ -759,7 +759,7 @@
 								}
 							},
 							"sourceList": [
-								"bc-lab5/Bidder.sol",
+								"Bidder.sol",
 								"#utility.yul"
 							]
 						},
@@ -769,12 +769,12 @@
 							"setName()": "2bf0f81c"
 						}
 					},
-					"metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"determineEligibility\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setBidAmount\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setName\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"bc-lab5/Bidder.sol\":\"Bidder\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"bc-lab5/Bidder.sol\":{\"keccak256\":\"0x585b1b61d44273fe806af119c8a757cbbf002707e3ac035eda3b5c1c94e2d30e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c9c1a9a0333df82c26b643d4c41597d494ffbce63983b0ac80c270540bbb9856\",\"dweb:/ipfs/Qme9YCtyZc7yiLNjxv7HwkAZjL1sJEEigFP9bkmZqeBVZu\"]}},\"version\":1}",
+					"metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"determineEligibility\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setBidAmount\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"setName\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"Bidder.sol\":\"Bidder\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"Bidder.sol\":{\"keccak256\":\"0x585b1b61d44273fe806af119c8a757cbbf002707e3ac035eda3b5c1c94e2d30e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c9c1a9a0333df82c26b643d4c41597d494ffbce63983b0ac80c270540bbb9856\",\"dweb:/ipfs/Qme9YCtyZc7yiLNjxv7HwkAZjL1sJEEigFP9bkmZqeBVZu\"]}},\"version\":1}",
 					"storageLayout": {
 						"storage": [
 							{
 								"astId": 3,
-								"contract": "bc-lab5/Bidder.sol:Bidder",
+								"contract": "Bidder.sol:Bidder",
 								"label": "name",
 								"offset": 0,
 								"slot": "0",
@@ -782,7 +782,7 @@
 							},
 							{
 								"astId": 5,
-								"contract": "bc-lab5/Bidder.sol:Bidder",
+								"contract": "Bidder.sol:Bidder",
 								"label": "bidAmount",
 								"offset": 0,
 								"slot": "1",
@@ -790,7 +790,7 @@
 							},
 							{
 								"astId": 7,
-								"contract": "bc-lab5/Bidder.sol:Bidder",
+								"contract": "Bidder.sol:Bidder",
 								"label": "eligible",
 								"offset": 0,
 								"slot": "2",
@@ -798,7 +798,7 @@
 							},
 							{
 								"astId": 9,
-								"contract": "bc-lab5/Bidder.sol:Bidder",
+								"contract": "Bidder.sol:Bidder",
 								"label": "minBid",
 								"offset": 0,
 								"slot": "3",
@@ -832,9 +832,9 @@
 			}
 		},
 		"sources": {
-			"bc-lab5/Bidder.sol": {
+			"Bidder.sol": {
 				"ast": {
-					"absolutePath": "bc-lab5/Bidder.sol",
+					"absolutePath": "Bidder.sol",
 					"exportedSymbols": {
 						"Bidder": [
 							22

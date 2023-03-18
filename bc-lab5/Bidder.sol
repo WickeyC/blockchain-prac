@@ -2,21 +2,21 @@
 pragma solidity ^0.8.0;
 
 contract Bidder {
-    string name;
-    uint bidAmount;
-    bool eligible;
-    uint minBid;
+    string private name;
+    uint private bidAmount;
+    bool private eligible;
+    uint private constant minBid = 2000;
 
-    function setName() public {
-
+    function setName(string memory _name) public {
+        name = _name;
     }
 
-    function setBidAmount() public {
-        
+    function setBidAmount(uint _bidAmount) public {
+        bidAmount = _bidAmount;
     }
 
-    function determineEligibility() public {
-        
+    function determineEligibility() public{
+        (bidAmount >= minBid) ? eligible = true : eligible = false;
     }
 }
 

@@ -6,8 +6,40 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "determineEligibility",
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "increment",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -16,24 +48,11 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_bidAmount",
+						"name": "data",
 						"type": "uint256"
 					}
 				],
-				"name": "setBidAmount",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "setName",
+				"name": "set",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/Bidder.sol": "Bidder"
+			"bc-lab4/contracts/SimpleStorage.sol": "SimpleStorage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab5/Bidder.sol": {
-			"keccak256": "0xaa6c0fdc758d522c7e3ca15fd7a54fbfc364508d0adaff3616e9c8e4fb7112a9",
+		"bc-lab4/contracts/SimpleStorage.sol": {
+			"keccak256": "0xbd99ae0336480b767161250e2f6176185dad32a3a2389e44d14728e4839cbfad",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08b4e2854cc4746b56ec2fe88424fc81a53d9b413204d9f7f9c3343fe2e88b5b",
-				"dweb:/ipfs/QmVEFfPivtQFZ4WcbTeiS7a6GB3cgDugR9tND5jRZy9436"
+				"bzz-raw://01c3d02e37562be1ba7def24fdebdf13a79d49ab49f32b4fdf35ca548caa5844",
+				"dweb:/ipfs/QmdXAZ9EcbpXUZEduMyq4tcfaTv3y5mFzLSxEysWkzGFAL"
 			]
 		}
 	},

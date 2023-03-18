@@ -61,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/1_Storage.sol": "Storage"
+			"bc-remix/contracts/1_Storage.sol": "Storage"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -75,7 +75,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/1_Storage.sol": {
+		"bc-remix/contracts/1_Storage.sol": {
 			"keccak256": "0xeb762122ef8f60ada724bf0c979e253544d92111a144f7766d082929f55ed887",
 			"license": "GPL-3.0",
 			"urls": [

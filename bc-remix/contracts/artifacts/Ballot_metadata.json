@@ -205,7 +205,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/3_Ballot.sol": "Ballot"
+			"bc-remix/contracts/3_Ballot.sol": "Ballot"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -219,7 +219,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/3_Ballot.sol": {
+		"bc-remix/contracts/3_Ballot.sol": {
 			"keccak256": "0x83fe6b367c140a5c7678c420da454c8c3866ccae12da149c5da3ce6568d29b6c",
 			"license": "GPL-3.0",
 			"urls": [
