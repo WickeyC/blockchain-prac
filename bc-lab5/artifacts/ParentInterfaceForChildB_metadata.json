@@ -7,27 +7,8 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "SchoolOpen",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "setValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -45,7 +26,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/parent.sol": "Parent"
+			"bc-lab5/parent.sol": "ParentInterfaceForChildB"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -60,11 +41,11 @@
 	},
 	"sources": {
 		"bc-lab5/parent.sol": {
-			"keccak256": "0xb133e8136fef846983da91022415043356c44fc268734726fa298954ec7e0b27",
+			"keccak256": "0x4662134373008aed599ced3e35320953edcc5c8a997c8541fbe65d2d0089a13c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e3c870c794d1ce375ce3a27a82b99a3f011706145a4da9f2cb02c82804eb953",
-				"dweb:/ipfs/QmbixWFM2N5Xnv3k7xvyhgJ2sZAhnfzStRstPbA7AQYAXK"
+				"bzz-raw://22a7fa905d1a4d8fec5ab159f81fb83fb6c888e578a8e1fb32c6f1c78c31aff3",
+				"dweb:/ipfs/QmZJCdUzEVJQqR2EtZ8Tfk2mTqPZb6X7P3MpXtvYp8LkwH"
 			]
 		}
 	},

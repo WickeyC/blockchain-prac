@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getValue",
+				"name": "setValue",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,13 +28,6 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setValue",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -52,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/child.sol": "child"
+			"bc-lab5/parent.sol": "ParentInterfaceForChildA"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -66,20 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab5/child.sol": {
-			"keccak256": "0xd95964e0f94f2c7e9964cae5a6281e1e4c181bd4747719db5926b369d49d07d9",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://d47cffd5436ec296b2f0c7fa0ded7856b89056bc0a36bfea5de2fc9812fafcad",
-				"dweb:/ipfs/QmTzJEw6zLQbZe7VdbUCzvUu3ghpCWKiesrfrTHK121oob"
-			]
-		},
 		"bc-lab5/parent.sol": {
-			"keccak256": "0x47527deed0f3b75785c04aa7ef5aef22e6e7486e1858459bb816722b14cf3049",
+			"keccak256": "0xb133e8136fef846983da91022415043356c44fc268734726fa298954ec7e0b27",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce61433bc4f87990c2eaf1be75eabdc5c98c0bc75549864d6ba65cf2581c5c4f",
-				"dweb:/ipfs/QmZ3PjtEhSKLLd9G9erEnHQQqLzDWBG56MW4h6QxJHSKGp"
+				"bzz-raw://8e3c870c794d1ce375ce3a27a82b99a3f011706145a4da9f2cb02c82804eb953",
+				"dweb:/ipfs/QmbixWFM2N5Xnv3k7xvyhgJ2sZAhnfzStRstPbA7AQYAXK"
 			]
 		}
 	},
