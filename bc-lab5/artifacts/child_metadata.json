@@ -1,23 +1,10 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
-			{
-				"inputs": [],
-				"name": "SchoolOpen",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
 			{
 				"inputs": [],
 				"name": "getValue",
@@ -52,9 +39,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/child.sol": "child"
+			"bc-lab5/singleinheritance.sol": "child"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -66,20 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab5/child.sol": {
-			"keccak256": "0xd95964e0f94f2c7e9964cae5a6281e1e4c181bd4747719db5926b369d49d07d9",
+		"bc-lab5/singleinheritance.sol": {
+			"keccak256": "0xb5d327f6bcbc793ae2a731509675fb07bb489a0c970615a7f627b678587a92d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d47cffd5436ec296b2f0c7fa0ded7856b89056bc0a36bfea5de2fc9812fafcad",
-				"dweb:/ipfs/QmTzJEw6zLQbZe7VdbUCzvUu3ghpCWKiesrfrTHK121oob"
-			]
-		},
-		"bc-lab5/parent.sol": {
-			"keccak256": "0x47527deed0f3b75785c04aa7ef5aef22e6e7486e1858459bb816722b14cf3049",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://ce61433bc4f87990c2eaf1be75eabdc5c98c0bc75549864d6ba65cf2581c5c4f",
-				"dweb:/ipfs/QmZ3PjtEhSKLLd9G9erEnHQQqLzDWBG56MW4h6QxJHSKGp"
+				"bzz-raw://4f4937cb090cb7631033786eae1fe4be21b026b7d34113bcd0d856ab3f4e07cf",
+				"dweb:/ipfs/QmQDHFyNYpui1EWnRQPfgPkNesTYjbaDmCRxFt2uraHqum"
 			]
 		}
 	},

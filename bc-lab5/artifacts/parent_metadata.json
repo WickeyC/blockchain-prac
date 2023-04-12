@@ -1,33 +1,14 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "SchoolOpen",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "setValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -45,9 +26,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/parent.sol": "Parent"
+			"bc-lab5/singleinheritance.sol": "parent"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -59,12 +40,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab5/parent.sol": {
-			"keccak256": "0xb133e8136fef846983da91022415043356c44fc268734726fa298954ec7e0b27",
+		"bc-lab5/singleinheritance.sol": {
+			"keccak256": "0xb5d327f6bcbc793ae2a731509675fb07bb489a0c970615a7f627b678587a92d4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8e3c870c794d1ce375ce3a27a82b99a3f011706145a4da9f2cb02c82804eb953",
-				"dweb:/ipfs/QmbixWFM2N5Xnv3k7xvyhgJ2sZAhnfzStRstPbA7AQYAXK"
+				"bzz-raw://4f4937cb090cb7631033786eae1fe4be21b026b7d34113bcd0d856ab3f4e07cf",
+				"dweb:/ipfs/QmQDHFyNYpui1EWnRQPfgPkNesTYjbaDmCRxFt2uraHqum"
 			]
 		}
 	},

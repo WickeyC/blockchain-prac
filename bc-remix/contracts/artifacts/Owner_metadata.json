@@ -87,7 +87,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Owner.sol": "Owner"
+			"bc-remix/contracts/2_Owner.sol": "Owner"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -101,7 +101,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_Owner.sol": {
+		"bc-remix/contracts/2_Owner.sol": {
 			"keccak256": "0x78bbbec96c5bc30ed379cb4c7bc96af4af5c71a2ed6cbd7b202097223e055294",
 			"license": "GPL-3.0",
 			"urls": [

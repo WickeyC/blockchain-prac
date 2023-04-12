@@ -1,22 +1,67 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.2+commit.661d1103"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "determineEligibility",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "bidAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "eligible",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minBid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_bidAmount",
+						"name": "_buyerBidAmount",
 						"type": "uint256"
 					}
 				],
@@ -31,11 +76,47 @@
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mBid",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bAmount",
+						"type": "uint256"
 					}
 				],
 				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winnerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winnerTimeStamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -52,9 +133,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab5/Bidder.sol": "Bidder"
+			"bc-lab5/biddersample.sol": "Bidder"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -66,12 +147,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab5/Bidder.sol": {
-			"keccak256": "0xaa6c0fdc758d522c7e3ca15fd7a54fbfc364508d0adaff3616e9c8e4fb7112a9",
+		"bc-lab5/biddersample.sol": {
+			"keccak256": "0xd38a4ca5dae234588b92f8a46f5c84ffbd204ea0010f2a32e8b24e5a5c730143",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://08b4e2854cc4746b56ec2fe88424fc81a53d9b413204d9f7f9c3343fe2e88b5b",
-				"dweb:/ipfs/QmVEFfPivtQFZ4WcbTeiS7a6GB3cgDugR9tND5jRZy9436"
+				"bzz-raw://9c03fd1467be6f622c160cf8c8330638b9c9404e493ae267b0906957fbacfc42",
+				"dweb:/ipfs/QmbSthwXAHtUbYocc6FyR6zWFd4RzZGV2MWNQYoxkWfb4b"
 			]
 		}
 	},

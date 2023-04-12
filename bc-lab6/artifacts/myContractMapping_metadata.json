@@ -1,0 +1,129 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "_id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "_firstName",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "_lastName",
+								"type": "string"
+							}
+						],
+						"internalType": "struct myContractMapping.Person",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "peopleCount",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bc-lab6/myContractMapping.sol": "myContractMapping"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bc-lab6/myContractMapping.sol": {
+			"keccak256": "0xb35599a6337a63f158073fb5f2831052d306a135a11a1df3b1e8de6e4983c365",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://37ff3fa323dbb4bf9151fbd29fdac3d81c38b7e3f1e85f3bb3551cc4f609d7bb",
+				"dweb:/ipfs/QmVDyXjs6cytba1YCG7SeWFazM6tS5H89YNqo3H4MGDaXA"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.0+commit.c7dfd78e"
+		"version": "0.8.17+commit.8df45f5f"
 	},
 	"language": "Solidity",
 	"output": {
@@ -50,9 +50,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Greeter.sol": "Greeter"
+			"bc-remix/contracts/Greeter.sol": "Greeter"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -64,7 +64,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Greeter.sol": {
+		"bc-remix/contracts/Greeter.sol": {
 			"keccak256": "0x1b6c065972072ed2848a043176f459e38ef5956ba895771ee30af3fe6cd00cf2",
 			"license": "MIT",
 			"urls": [
