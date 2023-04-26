@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.19+commit.7dd6d404"
 	},
 	"language": "Solidity",
 	"output": {
@@ -110,6 +110,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "stage",
+				"outputs": [
+					{
+						"internalType": "enum Ballot.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint8",
@@ -125,14 +138,8 @@
 			{
 				"inputs": [],
 				"name": "winningProposal",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "_winningProposal",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -153,9 +160,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bc-lab7/E2BallotBasic.sol": "Ballot"
+			"bc-lab7/E4BallotFunctionModifier.sol": "Ballot"
 		},
-		"evmVersion": "london",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -167,12 +174,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"bc-lab7/E2BallotBasic.sol": {
-			"keccak256": "0xaf91312ea13a98e6bccf64d9d5492e01701f2f00363f720974363bb6ef9414ba",
+		"bc-lab7/E4BallotFunctionModifier.sol": {
+			"keccak256": "0x847ebb4d6b4231a2cbc9eef1e64fa1a4a23fe9992556ba411c8842fd4d23b617",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a82cd2cd7713c96e56caf645946a1b7cdbe4aab016724e78044a989030d868a4",
-				"dweb:/ipfs/QmNRdbRT9wkco94zm3uMyXCu6Es8devYaCKusxGQvwuWA9"
+				"bzz-raw://443925315bfeced5739b18b77cfa177c9c6d35237bc39b13018f35c63725c41c",
+				"dweb:/ipfs/QmYawJQf5dq5Wy7UzYkf4zjirbaQyYF4URVGhLzcsym3dr"
 			]
 		}
 	},

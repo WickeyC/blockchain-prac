@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "AnimalId",
+						"type": "uint256"
+					}
+				],
+				"name": "adopt",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "adopters",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getAdopters",
+				"outputs": [
+					{
+						"internalType": "address[8]",
+						"name": "",
+						"type": "address[8]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SponsorAnimals/contracts/SponsorAnimals.sol": "SponsorAnimals"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SponsorAnimals/contracts/SponsorAnimals.sol": {
+			"keccak256": "0x796e7b5c9b4979659ddd28338b4b9fbf741dbff74035f39767e70f1b8385ee7a",
+			"urls": [
+				"bzz-raw://21e2888f6bc65d53a6df83745c0a7ece96a3d9fe0bfa5ccc078542988de2d3ea",
+				"dweb:/ipfs/QmTTd4Hc6z6DyvXLoB7mi926FHijguqvNWyMxkkYzawhru"
+			]
+		}
+	},
+	"version": 1
+}

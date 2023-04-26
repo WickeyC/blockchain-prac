@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "advanceState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stage",
+				"outputs": [
+					{
+						"internalType": "enum StateTransV2.Stage",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeNow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bc-lab7/StateTrans.sol": "StateTransV2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bc-lab7/StateTrans.sol": {
+			"keccak256": "0xa01ca47d09f1d6f48900e5f14e528dd946df592e1a919ba878036808ba9e2362",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d1e3ef2a489a64d6c698863d75c9d0e42ac9c198b173d55e9e6e3283836d580",
+				"dweb:/ipfs/QmaRTcnXWEmwyGcgg1DZLiwr9cnBDQ7Dw6riZQkjxSCNer"
+			]
+		}
+	},
+	"version": 1
+}
